@@ -1,0 +1,15 @@
+.footer {
+  margin-top: -4rem;
+  height: 7vh;
+  background-color: var(--lightPink);
+}
+
+.f-content h4 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 7vh;
+
+}

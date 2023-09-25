@@ -1,0 +1,133 @@
+.contact {
+    height: 110vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .contact-text h2{
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: bold;
+    color: var(--lightPink);
+  }
+
+  .contact-text h4{
+    color: var(--black);
+    margin: 18px 0;
+    font-size: 25px;
+    font-weight: 200;
+  }
+  
+  .contact-text p{
+    color: var(--black);
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  .list{
+    margin-bottom: 2.8px;
+    list-style: none;
+  }
+  
+  .list li{
+    margin-bottom: 20px;
+  }
+  
+  .list li a{
+    display: block;
+    color: var(--lightPink);
+    font-size: 20px;
+    transition: all .45s ease;
+    text-decoration: none;
+
+  }
+  
+  .list li a:hover{
+    color: var(--gray);
+    transform: translateX(5px);
+  }
+  
+  .contact-icons i {
+    height: 45px;
+    width: 45px;
+    background: var(--lightPink);
+    color: var(--black);
+    font-size: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 15px;
+    transition: all .45s ease;
+  }
+  
+  .contact-icons i:hover{
+    background: black;
+    color: var(--lightPink);
+  }
+  
+  .contact-form form{
+    position: relative;
+  }
+  
+  .contact-form form input,
+  form textarea{
+    width: 100%;
+    padding: 14px;
+    background: white;
+    border: 1px solid var(--lightPink);
+    outline: none;
+    font-size: 16px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form textarea{
+    resize: none;
+    height: 240px;
+  }
+  
+  .contact-form .c-button {
+    width: 8rem;
+    height: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 34px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg, #dfc0ed 26.71%, #e3cefd 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(222, 195, 215, 0.42);
+  }
+
+  .c-button:hover {
+    background: white;
+    cursor: pointer;
+    color: var(--pink);
+    border: 1px solid var(--pink);
+  }
+  
+  
+  .contact-form .submit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+.c-blur1 {
+    top: 1rem;
+    left: 8rem;
+  }
+
+  @media screen and (max-width: 480px){
+    .contact {
+      grid-template-columns: 1fr;
+      transform: scale(0.8);
+      margin-bottom: 8rem;
+    }
+
+
+  }
