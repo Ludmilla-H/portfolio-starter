@@ -21,12 +21,6 @@ const Portfolio = () => {
 
   let data = [
     {
-      id: 1,
-      imgSrc: Projet1,
-      h1: 'ToDoList',
-      text: 'Todo list réalisée en Php avec Laravel' ,
-    },
-    {
       id: 2,
       imgSrc: Projet2,
       h1: 'LeBonCoin',

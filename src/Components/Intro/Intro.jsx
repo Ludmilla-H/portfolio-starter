@@ -26,8 +26,8 @@ const Intro = () => {
                 <img src={Linkedin} alt="" />
                 <img src={Instagram} alt="" />
             </div>
-
         </div>
+        
         <div className="i-right">
             <img src={Vector} alt="" />
             <img src={girl} alt="" />
