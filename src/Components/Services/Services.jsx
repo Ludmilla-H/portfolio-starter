@@ -4,7 +4,6 @@ import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import Card from '../Cards/Card'
-import CvHarnaisLudmilla from './CvHarnaisLudmilla.pdf'
 
 const Services = () => {
   return (
@@ -14,13 +13,6 @@ const Services = () => {
         <span>Mes</span>
         <span>Services</span>
 
-        <span> Voici les services que j'effectue et dans lesquelles je me forme. 
-            <br/>
-            
-        </span>
-        <a href={CvHarnaisLudmilla} download>
-        <button className="button s-button">Telécharger mon CV</button>
-        </a>
         <div className="blur s-blur1" style={{background : '#abf1ff94'}}></div>
 
     </div>

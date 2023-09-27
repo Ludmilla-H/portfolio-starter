@@ -37,7 +37,6 @@ const Contact = () => {
                     <h4>Pour avoir plus d'informations contacter moi.</h4>
                     <p>N'oubliez pas de remplir les champs a droite afin que je puissent répondre au plus vite.</p>
                     <div className="list">
-                        <li><a href="#">+ 596 696 19 57 25</a></li>
                         <li><a href="#">ludmillaharnais31@gmail.com</a></li>
                         <li><a href="#">Mes réseaux professionelle sont les suivants :</a></li>
                         <div className='blur s-blur1' style= {{background: "#ABF1FF94"}}>

@@ -8,6 +8,8 @@ import girl from '../../img/girl.png'
 import thumbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
+import CvHarnaisLudmilla from './CvHarnaisLudmilla.pdf'
+
 
 
 const Intro = () => {
@@ -20,21 +22,22 @@ const Intro = () => {
                 <span>Je suis Dévellopeuse Conceptrice D'aplications, 
                         je suis a la recherche d'un stage de trois mois et je souhaiterais le réaliser dans votre entreprise.</span>
             </div>
-            <button className="button i-button">Engager-moi</button>
+            <a href={CvHarnaisLudmilla} download>
+        <button className="button i-button">Telécharger mon CV</button>
+        </a>
             <div className="i-icons">
-                <img src={Github} alt="" />
-                <img src={Linkedin} alt="" />
-                <img src={Instagram} alt="" />
+                <a hreh="https://github.com/Ludmilla-H?tab=repositories" className="i-icons"><img src={Github} alt="" /></a>
+                <a hreh="https://github.com/Ludmilla-H?tab=repositories" className="i-icons"><img src={Linkedin} alt="" /></a>
             </div>
         </div>
-        
+
         <div className="i-right">
             <img src={Vector} alt="" />
             <img src={girl} alt="" />
             <div style={{top : '-5%' , left : '72%'}} 
             className="floating-div"
             >
-                <FloatingDiv image={Crown} txt1='Developpeur' txt2='Web'/>
+                <FloatingDiv image={Crown} txt1='conceptrice' txt2="d'applications"/>
             </div>
             <div style={{top : '18rem' , left : '-2rem'}}
             className="floating-div"

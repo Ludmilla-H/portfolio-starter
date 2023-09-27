@@ -21,21 +21,6 @@ const Portfolio = () => {
 
   let data = [
     {
-      id: 2,
-      imgSrc: Projet2,
-      h1: 'LeBonCoin',
-      text: "Application de revente d'objet " ,
-      text2 : "de particuliers réalisé en php",
-
-    },
-    {
-      id: 3,
-      imgSrc: Projet3,
-      h1: 'Carousel',
-      text: 'Carousel réalisé en html css' ,
-
-    },
-    {
       id: 4,
       imgSrc: Projet4,
       h1: 'Entrainement',
@@ -58,6 +43,7 @@ const Portfolio = () => {
       text: '(suite)' ,
 
     },
+
     {
       id: 14,
       imgSrc: Projet14,
@@ -80,6 +66,7 @@ const Portfolio = () => {
       text: '' ,
 
     },
+
     {
       id: 9,
       imgSrc: Projet9,
@@ -101,11 +88,29 @@ const Portfolio = () => {
       text: 'page de détail avec react' ,
 
     },
+
+
+
+    {
+      id: 2,
+      imgSrc: Projet2,
+      h1: 'LeBonCoin',
+      text: "Application de revente d'objet " ,
+      text2 : "de particuliers réalisé en php",
+
+    },
+    {
+      id: 3,
+      imgSrc: Projet3,
+      h1: 'Carousel',
+      text: 'Carousel réalisé en html css' ,
+
+    },
     {
       id: 12,
       imgSrc: Projet12,
-      h1: 'LoGin',
-      text: 'Page de loGin fonctionelle afin de se connecter ' ,
+      h1: 'LogIn',
+      text: 'Page de logIn fonctionelle afin de se connecter ' ,
       text2: 'a un site internet' ,
 
     },
@@ -140,7 +145,7 @@ const Portfolio = () => {
 
     <div className= {model? 'model open ' : "model"}>
       <img src={tempImgSrc} alt=""/>
-      <button onClick={() => setModel(false)}>X</button>
+      <button onClick={() => setModel(false)}>x</button>
     </div>
     
       <div className="portfolio" id="Portfolio">
